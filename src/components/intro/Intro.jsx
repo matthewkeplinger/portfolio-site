@@ -11,7 +11,7 @@ function Intro() {
             showCursor: true,
             backDelay:1500,
             backSpeed:60,
-            strings:["Developer", "Designer", "Problem Solver"],
+            strings:["Developer", "B.S. in Information Technology", "Problem Solver"],
         });
     },[])
 
@@ -27,7 +27,7 @@ function Intro() {
                 <div className = "wrapper">
                     <h2>Hello! I'm</h2>
                     <h1>Matt Keplinger</h1>
-                    <h3>Freelance <span ref={textRef}></span></h3>
+                    <h3><span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio" alt = "">
                     <img src = "assets/down.png" alt = ""/>
