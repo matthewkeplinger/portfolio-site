@@ -10,9 +10,9 @@
 
         .imgContainer {
             width:850px;
-            height: 700px;
+            height: 600px;
             border-radius: 70%;
-            background-color: navy;
+            background-color: $mainColor;
             display:flex;
             align-items: flex-end;
             justify-content: center;
@@ -49,7 +49,7 @@
 
                 span{
                     font-size:inherit;
-                    color: navy;
+                    color: $mainColor;
                 }
                 .ityped-cursor {
                     animation: blink 1s infinite;

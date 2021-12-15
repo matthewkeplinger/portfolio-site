@@ -11,7 +11,7 @@ function Intro() {
             showCursor: true,
             backDelay:1500,
             backSpeed:60,
-            strings:["Developer", "B.S. in Information Technology", "Problem Solver"],
+            strings:["Developer", "Lifelong Learner", "Problem Solver", "Military Veteran"],
         });
     },[])
 
