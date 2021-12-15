@@ -1,14 +1,41 @@
 import "./Portfolio.scss"
+import PortfolioList from "../portfolioList/PortfolioList"
+import { useState, useEffect } from "react";
+import { ListItem } from "@material-ui/core";
+
 
 function Portfolio() {
+    const [selected, setSelected] = useState("react");
+
+    const list = [
+        {
+            id: "react",
+            title: "React/Javascript",
+        },
+        {
+            id:"python",
+            title: "Python/Django",
+        },
+        {
+            id:"asp",
+            title: "C# and ASP.net",
+        },
+        {
+            id:"java",
+            title: "Java"
+        }
+    ]
     return (
         <div className="portfolio" id = "portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li className = "active">React/Javascript</li>
-                <li>Python/Django</li>
-                <li>Java</li>
-                <li>C# and ASP.net</li>
+                {list.map(item=>(
+                    <PortfolioList title = {item.title} 
+                    active = {selected === item.id} 
+                    setSelected = {setSelected}
+                    id = {item.id} />
+                ))}
+
             </ul>
             <div className="container">
                 <div className = "item">
