@@ -11,7 +11,7 @@ function Intro() {
             showCursor: true,
             backDelay:1500,
             backSpeed:60,
-            strings:["Developer", "Lifelong Learner", "Problem Solver", "Military Veteran"],
+            strings:["Developer","Analyst", "Lifelong Learner", "Problem Solver", "Military Veteran"],
         });
     },[])
 
@@ -20,7 +20,7 @@ function Intro() {
         <div className = "intro" id = "intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src = "./assets/author.png" alt = ''/>
+                    <img src = "./assets/webdev.png" alt = ''/>
                 </div>
             </div>
             <div className = "right">

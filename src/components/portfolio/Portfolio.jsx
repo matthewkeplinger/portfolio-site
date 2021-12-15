@@ -61,7 +61,7 @@ function Portfolio() {
             <div className="container">
                 {data.map((d)=>(
                     <div className = "item">
-                        <img src = {d.img}/>
+                        <img src = {d.img} alt = ''/>
                         <h3>{d.title}</h3>
                     </div>
                 ))}

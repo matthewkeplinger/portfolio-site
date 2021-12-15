@@ -2,7 +2,7 @@
 
 
 .works{
-    background-color: #E0DBD1;
+    background-color: $mainColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@
                 justify-content: center;
 
                 .left {
-                    flex:6;
+                    flex:7;
                     height: 80%;
                     display: flex;
                     align-items: center;
@@ -62,7 +62,7 @@
                         justify-content: space-between;
 
                         .imgContainer{
-                            width: 160px;
+                            width: 140px;
                             height: 140px;
                             border-radius: 50%;
                             background-color: $mainColor;
@@ -72,12 +72,13 @@
 
 
                             img{
-                                width: 70%;
+                                width: 75%;
                             }
                         }
                         h2{
                             font-size: 20px;
                             overflow:hidden;
+                            margin-bottom: 20px;
                         }
                         h3{
                             font-size: 16px;
@@ -96,7 +97,7 @@
                     }
                 }
                 .right {
-                    flex:6;
+                    flex:5;
                     height: 100%;
                     display: flex;
                     align-items: center;
@@ -104,7 +105,9 @@
                     overflow:hidden;
 
                     img{
-                        width: 300px;
+                        height: 70%;
+                        border-radius: 10%;
+                        transform: rotateY(180deg);
                     }
                 }
             }

@@ -10,22 +10,31 @@ function Works() {
             id: "1",
             line1: "Education",
             line2: "B.S. in Information Technology",
-            line3: "Georgia Southern University, August 2017-July 2021",
-            line4: "Full Stack Software Developer",
-            line5: "DevCodeCamp, July 2021 - October 2021",
+            line3: "Georgia Southern University, Savannah, GA ",
+            line4: "August 2017-July 2021",
+            line5: "Activities: Order of the Sword and Shield Honor Society, National Society of Collegiate Scholars",
             img: "./assets/education.png"
         },
         {
-            id: "2",
+          id: "2",
+          line1: "Relevant Training",
+          line2: "Full Stack Software Developer Course",
+          line3: "DevCodeCamp, Milwaukee, WI",
+          line4: "July 2021-October 2021",
+          line5: "Relevant Technologies: API Design, MySQL, MS SQL Server, Javascript, React.js, Python, Django, C#, ASP.net, HTML, CSS",
+          img: "./assets/coder.png"
+      },
+        {
+            id: "3",
             line1: "Most Recent Job",
-            line2: "Functional Analyst, Nine Line Apparel",
+            line2: "Functional Analyst - Systems Integration Department",
             line3: "May 2019-July 2021",
             line4: "Relevant Technologies: SQL, C#, SAP BusinessOne, Dell Boomi, Network hardware",
             line5: "Roles: SQL Admin, SAP Admin, Dell Boomi Professional Integration Developer/API Developer",
             img: "./assets/analyst.png"
         },
         {
-            id: "3",
+            id: "4",
             line1: "Previous Job",
             line2: "Senior Explosive Ordnance Disposal Team Leader, United States Army",
             line3: "September 2007-July 2017",
@@ -35,14 +44,13 @@ function Works() {
         },
     ]
 
-
     const handleClick = (way)=>{
         way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 2) :
         setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0)
     }
 
     return (
-        <div className="works" id="works">
+        <div className="works" id="about">
           <div
             className="slider"
             style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -66,7 +74,7 @@ function Works() {
                   </div>
                   <div className="right">
                     <img
-                      src="./assets/webdev.png"
+                      src="./assets/puzzle.png"
                       alt=""
                     />
                   </div>
