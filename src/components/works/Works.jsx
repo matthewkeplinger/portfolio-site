@@ -9,7 +9,7 @@ function Works() {
         {
             id: "1",
             line1: "Education",
-            line2: "B.S. in Information Technology",
+            line2: "B.S. in Information Technology, 3.52 GPA",
             line3: "Georgia Southern University, Savannah, GA ",
             line4: "August 2017-July 2021",
             line5: "Activities: Order of the Sword and Shield Honor Society, National Society of Collegiate Scholars",
@@ -27,7 +27,7 @@ function Works() {
         {
             id: "3",
             line1: "Most Recent Job",
-            line2: "Functional Analyst - Systems Integration Department",
+            line2: "Functional Analyst, Nine Line Apparel",
             line3: "May 2019-July 2021",
             line4: "Relevant Technologies: SQL, C#, SAP BusinessOne, Dell Boomi, Network hardware",
             line5: "Roles: SQL Admin, SAP Admin, Dell Boomi Professional Integration Developer/API Developer",
@@ -68,8 +68,6 @@ function Works() {
                       <p>{d.line3}</p>
                       <p>{d.line4}</p>
                       <p>{d.line5}</p>
-
-                      <span>Projects</span>
                     </div>
                   </div>
                   <div className="right">
