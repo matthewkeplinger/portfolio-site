@@ -12,7 +12,7 @@ function Contact() {
     return (
         <div className = "contact" id = "contact">
             <div className = "left">
-                <img src = "assets/webdev.png" alt = '' />
+                <img src = "assets/emailMe.png" alt = '' />
             </div>
             <div className = "right">
                 <h2>Contact Me</h2>
