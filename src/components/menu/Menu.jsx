@@ -1,4 +1,6 @@
 import "./Menu.scss"
+import { LinkedIn, GitHub } from "@material-ui/icons"
+
 
 function Menu({menuOpen, setMenuOpen}) {
     return (
@@ -12,9 +14,6 @@ function Menu({menuOpen, setMenuOpen}) {
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href = "#about">About me</a>
-                </li>
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href = "#testimonials">Testimonials</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href = "#contact">Contact</a>

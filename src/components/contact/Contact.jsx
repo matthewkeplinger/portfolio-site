@@ -15,15 +15,17 @@ function Contact() {
                 <img src = "assets/emailMe.png" alt = '' />
             </div>
             <div className = "right">
-                <h2>Contact Me</h2>
-                <form onSubmit = {handleSubmit}>
-                    <input type = "text" placeholder = "Email" />
-                    <textarea placeholder = "Message"></textarea>
-                    <button type = "submit">Send</button>
-                    {message && <span>Thanks, I will reply as soon as possible!</span>}
-                    
-                </form>
-
+                <ul>
+                    <li>
+                        <a href = "https://www.github.com/matthewkeplinger" target="_blank" rel="noreferrer"><img src = "assets/GitHub-logo.png" title="View my Github" alt = ''/></a> 
+                    </li>
+                    <li>
+                        <a href = "https://www.linkedin.com/in/matthew-keplinger" target="_blank" rel="noreferrer"><img src = "assets/linkedin.png" title="View my LinkedIn" alt = "" /></a>
+                    </li>
+                    <li>
+                        <a href = "mailto:matthew.keplinger85@gmail.com?subject-=Mail from Your Portfolio" target="_blank"><img className = "img2" src = "assets/email.png" title="Email Me!" alt = "" /></a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
