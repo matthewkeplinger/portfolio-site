@@ -9,7 +9,7 @@ function Works() {
         {
             id: "1",
             line1: "Education",
-            line2: "B.S. in Information Technology, 3.52 GPA",
+            line2: "B.S. in Information Technology, 3.62 GPA (Magna Cum Laude)",
             line3: "Georgia Southern University, Savannah, GA ",
             line4: "August 2017-July 2021",
             line5: "Activities: Order of the Sword and Shield Honor Society, National Society of Collegiate Scholars",
